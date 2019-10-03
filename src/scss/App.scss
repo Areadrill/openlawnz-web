@@ -115,12 +115,9 @@ li {
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 85%;
   margin-bottom: 115px;
-  margin-left: auto;
-  margin-right: auto;
+  
   video{
     padding: 10%;
     width: 100%;
@@ -148,6 +145,9 @@ li {
 }
 
 .home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   width: 100%;
   background: $backgroundColor;

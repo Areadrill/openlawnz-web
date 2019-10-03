@@ -9,7 +9,7 @@
     width: 100%;
 
     &--large {
-      width: 95%;
+      width: 85%;
       max-width: initial;
     }
 
@@ -71,6 +71,10 @@
 
     &--title {
       justify-content: space-between;
+
+      span {
+        font-size: 14px;
+      }
 
       h1 {
         margin-bottom: 0;
